@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+}
+.mahi{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 20%;
+    background-color: rgb(245, 245, 161);
+    border: 2px solid rgb(209, 230, 135);
+    align-items: left;
+    justify-self: center;
+    padding: 0px 10px 0px 60px;
+    
+    box-shadow: 2px 2px 10px rgb(127, 127, 196);
+    border-radius: 10px;
+    justify-content: center;
+
+    
+}
+.mahi>p{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+.easy,.hard{
+    font-size: 30px;
+}
+.choice,.life{
+    font-size: 40px;
+}
+.love{
+    color: red;
+}
+h5{
+    font-size: 20px;
+}
